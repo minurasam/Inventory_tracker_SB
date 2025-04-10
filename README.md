@@ -71,7 +71,7 @@ source venv/bin/activate
 pip install -r requirements.txt
 
 # Setup environment variables
-cp .env.example .env
+`cp .env.example .env`
 
 # Apply DB migrations
 alembic upgrade head
