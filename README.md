@@ -61,6 +61,7 @@ A fullstack web application for small businesses to manage and track their inven
 ```bash
 git clone https://github.com/your-username/inventory-tracker.git
 cd inventory-tracker
+```
 
 ### 2️⃣ Backend Setup
 
