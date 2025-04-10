@@ -65,29 +65,30 @@ cd inventory-tracker
 
 ### 2️⃣ Backend Setup
 
-cd backend
-python -m venv venv
-source venv/bin/activate
-pip install -r requirements.txt
 
-# Setup environment variables
+`cd backend`
+`python -m venv venv`
+`source venv/bin/activate`
+`pip install -r requirements.txt`
+
+#### Setup environment variables
 `cp .env.example .env`
 
-# Apply DB migrations
-alembic upgrade head
+#### Apply DB migrations
+`alembic upgrade head`
 
-# Run the server
-uvicorn app.main:app --reload
+#### Run the server
+`uvicorn app.main:app --reload`
 
 
 ### 3️⃣ Frontend Setup
 
-cd frontend
-npm install
-npm run dev
+`cd frontend`
+`npm install`
+`npm run dev`
 
 ### 🧪 Testing
 
-# Run backend tests
-cd backend
-pytest
+#### Run backend tests
+`cd backend`
+`pytest`
