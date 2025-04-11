@@ -1,0 +1,39 @@
+Amazon Elastic Compute Cloud (EC2): 
+is a web service that provides secure, resizable compute capacity in the cloud, allowing users to access scalable and secure computing resources on demand to run applications
+
+Elastic Load Balancing: 
+is the AWS service that automatically distributes incoming application traffic across multiple resources, such as Amazon EC2 instances. A load balancer acts as a single point of contact for all incoming web traffic to your Auto Scaling group. This means that as you add or remove Amazon EC2 instances in response to the amount of incoming traffic, these requests route to the load balancer first. Then, the requests spread across multiple resources that will handle them. For example, if you have multiple Amazon EC2 instances, Elastic Load Balancing distributes the workload across the multiple instances so that no single instance has to carry the bulk of it. 
+
+Amazon Simple Notification Service (Amazon SNS) 
+is a publish/subscribe service. Using Amazon SNS topics, a publisher publishes messages to subscribers. This is similar to the coffee shop; the cashier provides coffee orders to the barista who makes the drinks. In Amazon SNS, subscribers can be web servers, email addresses, AWS Lambda functions, or several other options. 
+
+
+Amazon Simple Queue Service (Amazon SQS)
+is a message queuing service. Using Amazon SQS, you can send, store, and receive messages between software components, without losing messages or requiring other services to be available. In Amazon SQS, an application sends messages into a queue. A user or service retrieves a message from the queue, processes it, and then deletes it from the queue.
+
+
+AWS Lambda
+is a service that lets you run code without needing to provision or manage servers. While using AWS Lambda, you pay only for the compute time that you consume. Charges apply only when your code is running. You can also run code for virtually any type of application or backend service, all with zero administration. For example, a simple Lambda function might involve automatically resizing uploaded images to the AWS Cloud. In this case, the function triggers when uploading a new image. 
+
+Container orchestration services help you to deploy, manage, and scale your containerized applications.
+
+Amazon Elastic Container Service (Amazon ECS)
+(opens in a new tab) is a highly scalable, high-performance container management system that enables you to run and scale containerized applications on AWS. Amazon ECS supports Docker containers. Docker(opens in a new tab) is a software platform that enables you to build, test, and deploy applications quickly. AWS supports the use of open-source Docker Community Edition and subscription-based Docker Enterprise Edition. With Amazon ECS, you can use API calls to launch and stop Docker-enabled applications.
+
+
+Amazon Elastic Kubernetes Service (Amazon EKS)
+(opens in a new tab) is a fully managed service that you can use to run Kubernetes on AWS. Kubernetes(opens in a new tab) is open-source software that enables you to deploy and manage containerized applications at scale. A large community of volunteers maintains Kubernetes, and AWS actively works together with the Kubernetes community. As new features and functionalities release for Kubernetes applications, you can easily apply these updates to your applications managed by Amazon EKS.
+
+
+
+AWS Elastic Beanstalk
+With AWS Elastic Beanstalk, you provide code and configuration settings, and Elastic Beanstalk deploys the resources necessary to perform the following tasks:
+Adjust capacity
+Load balancing
+Automatic scaling
+Application health monitoring
+
+
+AWS CloudFormation
+With AWS CloudFormation, you can treat your infrastructure as code. This means that you can build an environment by writing lines of code instead of using the AWS Management Console to individually provision resources.
+AWS CloudFormation provisions your resources in a safe, repeatable manner, enabling you to frequently build your infrastructure and applications without having to perform manual actions. It determines the right operations to perform when managing your stack and rolls back changes automatically if it detects errors.
