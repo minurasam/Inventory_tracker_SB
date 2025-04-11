@@ -100,27 +100,17 @@ ER diagram coming soon...
 
 ### 📂 Project Structure
 
-inventory-tracker/
-
+```inventory-tracker/``
 ├── backend/
-
 │   ├── app/
-
 │   ├── tests/
-
 │   └── Dockerfile
-
 ├── frontend/
-
 │   ├── src/
-
 │   └── public/
-
 ├── README.md
-
 ├── .env.example
-
-└── A_diagram_of_an_Inventory_Tracker_application_arch.png
+└── A_diagram_of_an_Inventory_Tracker_application_arch.png```
 
 
 ### 🧠 Ideas for Extension
