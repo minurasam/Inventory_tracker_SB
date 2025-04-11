@@ -100,8 +100,38 @@ ER diagram coming soon...
 
 ### 📂 Project Structure
 
-backend/ ├── app/ │ ├── api/ │ │ ├── v1/ │ │ │ ├── endpoints/ │ │ │ │ ├── users.py │ │ │ │ ├── products.py │ │ │ │ ├── transactions.py │ │ │ │ └── files.py │ │ │ └── init.py │ ├── core/ │ │ ├── config.py │ │ └── security.py │ ├── db/ │ │ ├── base.py │ │ └── session.py │ ├── models/ │ │ ├── user.py │ │ ├── product.py │ │ ├── transaction.py │ │ └── file.py │ ├── schemas/ │ │ ├── user.py │ │ ├── product.py │ │ ├── transaction.py │ │ └── file.py │ ├── services/ │ │ └── s3.py │ └── main.py ├── migrations/ # Alembic migration scripts directory ├── requirements.txt └── Dockerfile
-
+backend/
+├── app/
+│   ├── api/
+│   │   ├── v1/
+│   │   │   ├── endpoints/
+│   │   │   │   ├── users.py
+│   │   │   │   ├── products.py
+│   │   │   │   ├── transactions.py
+│   │   │   │   └── files.py
+│   │   │   └── __init__.py
+│   ├── core/
+│   │   ├── config.py
+│   │   └── security.py
+│   ├── db/
+│   │   ├── base.py
+│   │   └── session.py
+│   ├── models/
+│   │   ├── user.py
+│   │   ├── product.py
+│   │   ├── transaction.py
+│   │   └── file.py
+│   ├── schemas/
+│   │   ├── user.py
+│   │   ├── product.py
+│   │   ├── transaction.py
+│   │   └── file.py
+│   ├── services/
+│   │   └── s3.py
+│   └── main.py
+├── migrations/            # Alembic migration scripts directory
+├── requirements.txt
+└── Dockerfile
 
 This structure includes the following directories:
 
