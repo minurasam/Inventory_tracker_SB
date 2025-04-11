@@ -92,3 +92,40 @@ cd inventory-tracker
 #### Run backend tests
 `cd backend`
 `pytest`
+
+
+### 🗄️ Database Models (ER Diagram)
+ER diagram coming soon...
+
+
+### 📂 Project Structure
+
+inventory-tracker/
+├── backend/
+│   ├── app/
+│   ├── tests/
+│   └── Dockerfile
+├── frontend/
+│   ├── src/
+│   └── public/
+├── README.md
+├── .env.example
+└── A_diagram_of_an_Inventory_Tracker_application_arch.png
+
+
+### 🧠 Ideas for Extension
+Barcode scanner integration
+
+Email low-stock alerts (SES)
+
+Excel import/export
+
+Audit logs for compliance
+
+Real-time updates via WebSocket
+
+### 📄 License
+MIT License
+
+### 🙋‍♂️ Author
+Minura Samaranayake
