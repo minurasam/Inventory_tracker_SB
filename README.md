@@ -6,7 +6,7 @@ A fullstack web application for small businesses to manage and track their inven
 
 ## 🖼️ Architecture Diagram
 
-![AWS Architecture](./A_diagram_of_an_Inventory_Tracker_application_arch.png)
+![AWS Architecture](./AWS_archtecture_diagram.jpg)
 
 ---
 
