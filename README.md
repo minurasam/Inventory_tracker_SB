@@ -100,17 +100,24 @@ ER diagram coming soon...
 
 ### 📂 Project Structure
 
-```inventory-tracker/``
-├── backend/
-│   ├── app/
-│   ├── tests/
-│   └── Dockerfile
-├── frontend/
-│   ├── src/
-│   └── public/
-├── README.md
-├── .env.example
-└── A_diagram_of_an_Inventory_Tracker_application_arch.png```
+backend/ ├── app/ │ ├── api/ │ │ ├── v1/ │ │ │ ├── endpoints/ │ │ │ │ ├── users.py │ │ │ │ ├── products.py │ │ │ │ ├── transactions.py │ │ │ │ └── files.py │ │ │ └── init.py │ ├── core/ │ │ ├── config.py │ │ └── security.py │ ├── db/ │ │ ├── base.py │ │ └── session.py │ ├── models/ │ │ ├── user.py │ │ ├── product.py │ │ ├── transaction.py │ │ └── file.py │ ├── schemas/ │ │ ├── user.py │ │ ├── product.py │ │ ├── transaction.py │ │ └── file.py │ ├── services/ │ │ └── s3.py │ └── main.py ├── migrations/ # Alembic migration scripts directory ├── requirements.txt └── Dockerfile
+
+
+This structure includes the following directories:
+
+- **app/**: Contains the main application code.
+  - **api/v1/endpoints/**: Houses API endpoints for different modules (users, products, transactions, files).
+  - **core/**: Contains configuration and security modules.
+  - **db/**: Database session management and base model for SQLAlchemy.
+  - **models/**: Database models (User, Product, Transaction, File).
+  - **schemas/**: Pydantic schemas for request and response validation.
+  - **services/**: Service modules like AWS S3 integration.
+  - **main.py**: The entry point of the FastAPI application.
+- **migrations/**: Directory for Alembic migration scripts.
+- **requirements.txt**: List of Python dependencies.
+- **Dockerfile**: Instructions to build the Docker image of the backend.
+
+
 
 
 ### 🧠 Ideas for Extension
@@ -129,3 +136,4 @@ MIT License
 
 ### 🙋‍♂️ Author
 Minura Samaranayake
+
