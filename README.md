@@ -99,7 +99,7 @@ ER diagram coming soon...
 
 
 ### 📂 Project Structure
-
+```
 backend/
 ├── app/
 │   ├── api/
@@ -132,7 +132,7 @@ backend/
 ├── migrations/            # Alembic migration scripts directory
 ├── requirements.txt
 └── Dockerfile
-
+```
 This structure includes the following directories:
 
 - **app/**: Contains the main application code.
