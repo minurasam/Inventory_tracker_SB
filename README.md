@@ -8,6 +8,11 @@ A fullstack web application for small businesses to manage and track their inven
 
 ![AWS Architecture](./Img/AwS.drawio.png)
 
+
+## 🖼️ ER Diagram
+
+![Entity Relationship Diagram](./Img/Inventory_management_ER.png)
+
 ---
 
 ## 🚀 Live Demo
