@@ -1,7 +1,7 @@
 from fastapi import FastAPI, HTTPException, Depends
-from models import UserLogin, UserCreate
-from Pass_Hash import hash_password, verify_password
-from Fake_database import get_user_by_username, save_user
+from app.models import UserLogin, UserCreate
+from app.auth.Pass_Hash import hash_password, verify_password
+from app.auth.Fake_database import get_user_by_username, save_user
 
 app = FastAPI()
 
